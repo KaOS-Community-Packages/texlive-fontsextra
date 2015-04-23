@@ -1,3 +1,4 @@
+
 PKGNAME="texlive-fontsextra"
 UPDMAP="etc/texmf/web2c/updmap.cfg"
 UPDMAPLOCAL="etc/texmf/web2c/updmap-local.cfg"
@@ -50,4 +51,3 @@ post_remove() {
   usr/bin/updmap-sys --quiet --nohash
   echo    " done." 
 }
- 
